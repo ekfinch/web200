@@ -1,0 +1,105 @@
+html {
+    background-color:#d3d3d3;
+}
+
+div.wrapper {
+    background-color::#d3d3d3;
+    font-family: 'Kirang Haerang', cursive;
+    font-size: 26px;
+    color: #2d3142;
+    margin: 25px;
+}
+
+h2 {
+    font-size: 30px;
+    padding: 5px;
+}
+
+h3 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-left: 550px;
+}
+
+p {
+    font-family: 'Antic Slab', serif;
+    font-size: 17px;
+    padding-top: 20px;
+    padding-left: 5px;
+}
+
+img.desktop {
+       float:right;
+       padding-top: 20px;
+       padding-left: 5px;
+       padding-bottom: 100px;
+       width: 40%;
+    }
+
+img.kitten {
+    width: 30%;
+    float: right;
+    padding-right: 10em;
+    padding-top: 5em;
+}
+
+figcaption {
+    font-family: 'Comfortaa', cursive;
+    font-size: 18px;
+    padding-left: 548px;
+}
+
+/* Embed Responsively Rules */
+div.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin-left: 150px;
+    margin-top: 50px;
+    max-width: 75%;
+} 
+
+div.embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    clear:both;
+    text-align: center;
+    padding:.75em;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #262626;
+    overflow: hidden;
+}
+
+/* NAVIGATION: Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #344459;
+    color: #f2f2f2;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
